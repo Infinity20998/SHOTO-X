@@ -57,7 +57,7 @@
 ## How To Deploy 
 * With Heroku:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/Infinity20998/MyGpack"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku." width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/Infinity20998/MyGpack"><img src="https://telegra.ph/file/3ef3a54c0c356d0339532.jpg" alt="Deploy to Heroku." width="490px"></a>
 </p>
 <br>
 
