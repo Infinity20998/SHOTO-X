@@ -179,25 +179,21 @@ if userge.has_bot:
         if from_user.id in Config.OWNER_ID:
             start_msg, btns = default_owner_start(from_user)
         else:
-            start_msg = f"""
-Hello 👋 {from_user.fname},
-Nice To Meet You !, I'm <b>{bot_.fname}</b> A Bot.
-
-        <b><i>Powered by</i> [USERGE-X](https://t.me/x_xtests)
-
-My Master is : {owner_.flname}</b>
-"""
-            if Config.BOT_FORWARDS:
-                start_msg += "<b>\n📌 NOTE:</b>\nYou can 📨 <b>Send Message</b> here to contact my <b>Master.</b>"
             contact_url = (
                 f"https://t.me/{owner_.uname}"
                 if owner_.uname
                 else f"tg://user?id={owner_.id}"
             )
+            start_msg = f""" 
+Hi there 👋 {from_user.fname}, 
+Nice To Meet You!, I'm <b>{bot_.fname}</b> a assistant bot of <b><a href={contact_url}>{owner_.flname}</a></b> 
+""" 
+            if Config.BOT_FORWARDS:
+                start_msg += "<b>\n📌 NOTE:</b>\nYou can <b>Send Message</b> here to contact my <b>Master.</b>"
             btns = [
                 [
-                    InlineKeyboardButton("👤  CONTACT", url=contact_url),
-                    InlineKeyboardButton("⭐️  REPO", url=Config.UPSTREAM_REPO),
+                    InlineKeyboardButton("ᐛ", url="https://t.me/TheOtherWhere"), 
+                    InlineKeyboardButton("⌘", url="https://t.me/TheEmptyVoid"), 
                 ]
             ]
         try:
