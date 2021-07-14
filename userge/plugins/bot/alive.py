@@ -250,11 +250,8 @@ class Bot_Alive:
         buttons = [
             [
                 InlineKeyboardButton(text="🔧  SETTINGS", callback_data="settings_btn"),
+                InlineKeyboardButton(text="⌘", url="https://t.me/TheOtherWhere"),
             ]
-              [
-                InlineKeyboardButton(text="∞", url="https://t.me/TheOtherWhere"),
-                InlineKeyboardButton(text="⌘", url="https://t.me/TheEmptyVoid"),
-              ]
         ]
         return InlineKeyboardMarkup(buttons)
 
