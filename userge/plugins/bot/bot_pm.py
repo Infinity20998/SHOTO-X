@@ -186,7 +186,7 @@ if userge.has_bot:
             )
             start_msg = f""" 
 Hi there 👋 {from_user.fname}, 
-Nice To Meet You!, I'm <b>{bot_.fname}</b> a assistant bot of <b><a href={contact_url}>{owner_.flname}</a></b> 
+Nice To Meet You!, I'm <b>{bot_.fname}</b> an assistant bot of <b><a href={contact_url}>{owner_.flname}</a></b> 
 """ 
             if Config.BOT_FORWARDS:
                 start_msg += "<b>\n📌 NOTE:</b>\nYou can <b>Send Message</b> here to contact my <b>Master.</b>"
