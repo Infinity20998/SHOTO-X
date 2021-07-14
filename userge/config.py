@@ -128,14 +128,14 @@ def get_version() -> str:
             setattr(Config, "HBOT_VERSION", hbot_version(ver))
         return Config.HBOT_VERSION
     try:
-        if "/code-rgb/userge-x" in Config.UPSTREAM_REPO.lower():
+        if "/infinity20998/shoto-x" in Config.UPSTREAM_REPO.lower():
             diff = list(_REPO.iter_commits(f"v{ver}..HEAD"))
             if diff:
-                ver = f"{ver}|SHOTO-∞"
+                ver = f"{ver}|Shoto-∞.{len(diff)}"
         else:
             diff = list(_REPO.iter_commits(f"{Config.UPSTREAM_REMOTE}/alpha..HEAD"))
             if diff:
-                ver = f"{ver}|SHOTO-∞"
+                ver = f"{ver}|Shoto-∞.{len(diff)}"
         branch = f"@{_REPO.active_branch.name}"
     except Exception as err:
         _LOG.error(err)
