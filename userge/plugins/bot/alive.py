@@ -248,10 +248,13 @@ class Bot_Alive:
     @staticmethod
     def alive_buttons() -> InlineKeyboardMarkup:
         buttons = [
-            [
+            (
                 InlineKeyboardButton(text="🔧  SETTINGS", callback_data="settings_btn"),
+            ),
+              (
                 InlineKeyboardButton(text="⌘", url="https://t.me/TheOtherWhere"),
-            ]
+                InlineKeyboardButton(text="ᐛ", url="https://t.me/EmptyVoid"),
+              ),    
         ]
         return InlineKeyboardMarkup(buttons)
 
