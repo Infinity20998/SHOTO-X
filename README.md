@@ -1,7 +1,7 @@
 <h2 align="center"><b>Owner: <a href="https://t.me/Infinity20998">∞</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/code-rgb/USERGE-X"><img src="https://telegra.ph/file/e1c8c13eb7b0d7e7f5003.gif" alt="Userge-x" width=400px></a>
+   <a href="https://github.com/code-rgb/USERGE-X"><img src="https://telegra.ph/file/5e68fb322fa5029d6cb78.gif" alt="Userge-x" width=400px></a>
    <br>
    <br>
 </p>
