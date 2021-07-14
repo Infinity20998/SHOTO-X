@@ -227,12 +227,11 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://t.me/TheEmptyVoid"><b>SHOTO-𝑿</a> is Up and Running.</b>
+<a href="https://t.me/TheEmptyVoid"><b>SHOTO-𝑿</a> is Up and Running!</b>
 
-    <b>〣 Python :</b>    <code>v{versions.__python_version__}</code>
-    <b>〣 Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
-    <b>〣 𝑿 :</b>    <code>v{get_version()}</code>
-
+🐍   <b>Python :</b>    <code>v{versions.__python_version__}</code>
+🔥   <b>Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
+🧬   <b>𝑿 :</b>    <code>v{get_version()}</code>
 <b>{Bot_Alive._get_mode()}</b>    <code>|</code>    🕔  <b>{userge.uptime}</b>
 """
         return alive_info_
