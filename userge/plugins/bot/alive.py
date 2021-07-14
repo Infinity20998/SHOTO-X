@@ -253,7 +253,7 @@ class Bot_Alive:
             ),
               (
                 InlineKeyboardButton(text="ᐛ", url="https://t.me/TheOtherWhere"),
-                InlineKeyboardButton(text="⌘", url="https://t.me/EmptyVoid"),
+                InlineKeyboardButton(text="⌘", url="https://t.me/TheEmptyVoid"),
               ),    
         ]
         return InlineKeyboardMarkup(buttons)
