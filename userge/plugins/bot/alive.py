@@ -227,7 +227,7 @@ class Bot_Alive:
     @staticmethod
     def alive_info() -> str:
         alive_info_ = f"""
-<a href="https://t.me/TheEmptyVoid"><b>SHOTO-𝑿</a> is Up and Running!</b>
+<a href="https://taphere.bio/infinity"><b>SHOTO-𝑿</a> is Up and Running!</b>
 ━━━━━━━━━━━━━━━━━━━━
 🐍   <b>Python :</b>    <code>v{versions.__python_version__}</code>
 🔥   <b>Pyrogram :</b>    <code>v{versions.__pyro_version__}</code>
@@ -252,8 +252,8 @@ class Bot_Alive:
                 InlineKeyboardButton(text="🔧  SETTINGS", callback_data="settings_btn"),
             ),
               (
-                InlineKeyboardButton(text="⌘", url="https://t.me/TheOtherWhere"),
-                InlineKeyboardButton(text="ᐛ", url="https://t.me/EmptyVoid"),
+                InlineKeyboardButton(text="ᐛ", url="https://t.me/TheOtherWhere"),
+                InlineKeyboardButton(text="⌘", url="https://t.me/EmptyVoid"),
               ),    
         ]
         return InlineKeyboardMarkup(buttons)
